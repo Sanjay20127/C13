@@ -27,7 +27,7 @@ function draw()
 {
  background(0);
  score= 0;
- textSize()= 20;
+ textSize(20);
  text("Score: "+score,270,30);
 scene.velocityX = -3 
   if (scene.x < 0)
@@ -47,16 +47,16 @@ scene.velocityX = -3
   {
     switch (select_balloon)
     {
-      case: 1
+      case 1:
       redBalloon();
       break;
-      case: 2
+      case 2:
       blueBalloon();
       break;
-      case: 3
+      case 3:
       greenBalloon();
       break;
-      case: 4
+      case 4:
       pinkBalloon();
       break;
     }
